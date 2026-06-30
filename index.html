@@ -1,293 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- =============================================
-       LINGUA WORLD - Language Learning Center
-       Student: Sa'ad Said Araye | ID: C1250095
-       Page: Home (index.html)
-       ============================================= -->
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Lingua World - Premier Language Learning Center offering English, Arabic, French, Spanish and more." />
-  <title>Lingua World | Language Learning Center</title>
-
-  <!-- Favicon (inline SVG emoji as favicon) -->
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌐</text></svg>" />
-
-  <!-- Main Stylesheet -->
-  <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning Center</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="favicon.ico">
 </head>
 <body>
 
-  <!-- ======= HEADER / NAVIGATION ======= -->
-  <header role="banner">
-    <div class="header-inner">
-      <a href="index.html" class="logo" aria-label="Lingua World Home">
-        <div class="logo-icon">L</div>
-        <div class="logo-text">
-          <span class="logo-name">Lingua World</span>
-          <span class="logo-tagline">Language Learning Center</span>
-        </div>
-      </a>
-
-      <nav role="navigation" aria-label="Main Navigation">
-        <ul>
-          <li><a href="index.html" class="active" aria-current="page">Home</a></li>
-          <li><a href="gallery.html">Gallery &amp; Data</a></li>
-          <li><a href="booking.html">Book a Class</a></li>
-          <li><a href="help.html">Help</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </nav>
+<!-- ===== HEADER ===== -->
+<header class="header">
+    <div class="container nav-container">
+        <div class="logo"><a href="index.html"><i class="fas fa-language"></i> LINGUA<span>CENTER</span></a></div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="booking.html">Booking</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="help.html">Help</a></li>
+            </ul>
+        </nav>
+        <a href="booking.html" class="btn-enroll">Enroll</a>
     </div>
-  </header>
+</header>
 
-  <!-- ======= MAIN CONTENT ======= -->
-  <main role="main" class="page-wrapper">
-
-    <!-- HERO SECTION -->
-    <section class="hero" aria-label="Welcome to Lingua World">
-      <div class="hero-content">
-
-        <!-- Left: Text -->
-        <div class="hero-text">
-          <span class="hero-eyebrow">🌐 Speak the World's Languages</span>
-          <h1>Learn a New<br /><span>Language</span>,<br />Open New Doors</h1>
-          <p class="hero-sub">
-            Join Lingua World's expert-led courses in English, Arabic, French,
-            Spanish, Chinese, and Somali — designed for every level.
-          </p>
-          <div class="hero-buttons">
-            <a href="booking.html" class="btn btn-primary">Book a Free Trial</a>
-            <a href="gallery.html" class="btn btn-outline">View Our Courses</a>
-          </div>
+<!-- ===== HERO ===== -->
+<section class="hero">
+    <div class="hero-bg"></div>
+    <div class="container hero-content">
+        <h1>Learn Languages With Confidence</h1>
+        <p>Unlock your future with expert-led courses. Join 1500+ students worldwide.</p>
+        <div class="hero-btns">
+            <a href="booking.html" class="btn-primary">Join Now</a>
+            <a href="gallery.html" class="btn-secondary">Explore Courses</a>
         </div>
-
-        <!-- Right: Language Cards -->
-        <div class="hero-visual" aria-hidden="true">
-          <div class="languages-grid">
-            <div class="lang-card">
-              <div class="lang-flag">🇬🇧</div>
-              <div class="lang-name">English</div>
-            </div>
-            <div class="lang-card">
-              <div class="lang-flag">🇸🇦</div>
-              <div class="lang-name">Arabic</div>
-            </div>
-            <div class="lang-card">
-              <div class="lang-flag">🇫🇷</div>
-              <div class="lang-name">French</div>
-            </div>
-            <div class="lang-card">
-              <div class="lang-flag">🇪🇸</div>
-              <div class="lang-name">Spanish</div>
-            </div>
-            <div class="lang-card">
-              <div class="lang-flag">🇨🇳</div>
-              <div class="lang-name">Chinese</div>
-            </div>
-            <div class="lang-card">
-              <div class="lang-flag">🇸🇴</div>
-              <div class="lang-name">Somali</div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- STATS STRIP -->
-    <section class="stats-strip" aria-label="Our achievements">
-      <div class="stats-inner">
-        <div class="stat-item">
-          <div class="stat-num">12<span>+</span></div>
-          <div class="stat-label">Languages Offered</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-num">2<span>,</span>500<span>+</span></div>
-          <div class="stat-label">Students Enrolled</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-num">98<span>%</span></div>
-          <div class="stat-label">Satisfaction Rate</div>
-        </div>
-        <div class="stat-item">
-          <div class="stat-num">45<span>+</span></div>
-          <div class="stat-label">Expert Instructors</div>
-        </div>
-      </div>
-    </section>
-
-    <!-- COURSES SECTION -->
-    <section class="section" aria-labelledby="courses-heading">
-      <div class="section-inner">
-        <header class="section-header">
-          <span class="section-eyebrow">What We Offer</span>
-          <h2 id="courses-heading">Our Language Courses</h2>
-          <p class="section-desc">
-            From beginner to advanced, our structured programs help you
-            communicate confidently in any language.
-          </p>
-        </header>
-
-        <div class="courses-grid">
-
-          <article class="course-card">
-            <div class="course-icon">🇬🇧</div>
-            <h3>English Language</h3>
-            <p>Master grammar, speaking, writing, and IELTS preparation with our certified English tutors.</p>
-            <div class="course-meta">
-              <span>⏱ 3 Months</span>
-              <span>👤 All Levels</span>
-            </div>
-          </article>
-
-          <article class="course-card">
-            <div class="course-icon">🇸🇦</div>
-            <h3>Arabic Language</h3>
-            <p>Learn Modern Standard Arabic and conversational Arabic, including Quranic Arabic fundamentals.</p>
-            <div class="course-meta">
-              <span>⏱ 4 Months</span>
-              <span>👤 Beginner+</span>
-            </div>
-          </article>
-
-          <article class="course-card">
-            <div class="course-icon">🇫🇷</div>
-            <h3>French Language</h3>
-            <p>Discover the language of diplomacy. Perfect for travel, business, and DELF certification.</p>
-            <div class="course-meta">
-              <span>⏱ 3 Months</span>
-              <span>👤 All Levels</span>
-            </div>
-          </article>
-
-          <article class="course-card">
-            <div class="course-icon">🇪🇸</div>
-            <h3>Spanish Language</h3>
-            <p>One of the world's most spoken languages — unlock opportunities across 20+ countries.</p>
-            <div class="course-meta">
-              <span>⏱ 3 Months</span>
-              <span>👤 All Levels</span>
-            </div>
-          </article>
-
-          <article class="course-card">
-            <div class="course-icon">🇨🇳</div>
-            <h3>Chinese (Mandarin)</h3>
-            <p>Learn Mandarin Chinese with our experienced native speakers — from tones to characters.</p>
-            <div class="course-meta">
-              <span>⏱ 6 Months</span>
-              <span>👤 Beginner</span>
-            </div>
-          </article>
-
-          <article class="course-card">
-            <div class="course-icon">🇸🇴</div>
-            <h3>Somali Language</h3>
-            <p>Strengthen your written and spoken Somali — from literature to formal communication skills.</p>
-            <div class="course-meta">
-              <span>⏱ 2 Months</span>
-              <span>👤 All Levels</span>
-            </div>
-          </article>
-
-        </div>
-      </div>
-    </section>
-
-    <!-- WHY CHOOSE US -->
-    <section class="section section-alt" aria-labelledby="why-heading">
-      <div class="section-inner">
-        <header class="section-header">
-          <span class="section-eyebrow">Why Lingua World</span>
-          <h2 id="why-heading">The Lingua World Advantage</h2>
-          <p class="section-desc">We believe language learning should be effective, flexible, and enjoyable.</p>
-        </header>
-
-        <div class="courses-grid">
-          <article class="course-card">
-            <div class="course-icon">🎓</div>
-            <h3>Certified Instructors</h3>
-            <p>All our teachers hold internationally recognized language certifications and bring years of teaching experience.</p>
-          </article>
-          <article class="course-card">
-            <div class="course-icon">📅</div>
-            <h3>Flexible Schedules</h3>
-            <p>Morning, evening, and weekend classes available. Learn at a pace and time that suits your life.</p>
-          </article>
-          <article class="course-card">
-            <div class="course-icon">🏆</div>
-            <h3>Recognized Certificates</h3>
-            <p>Earn certificates accepted by universities and employers worldwide upon course completion.</p>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- CALL TO ACTION -->
-    <section class="section" style="text-align:center; padding: 80px 24px;">
-      <div class="section-inner">
-        <span class="section-eyebrow">Ready to Start?</span>
-        <h2 style="font-family: var(--font-display); font-size: 2.2rem; color: var(--primary); margin: 12px 0 20px;">
-          Begin Your Language Journey Today
-        </h2>
-        <p style="color: var(--gray); margin-bottom: 36px; font-size: 1.05rem;">
-          Book your free trial class — no commitment required.
-        </p>
-        <a href="booking.html" class="btn btn-primary" style="font-size: 1.05rem; padding: 16px 48px;">
-          Book Your Free Class →
-        </a>
-      </div>
-    </section>
-
-  </main>
-
-  <!-- ======= FOOTER ======= -->
-  <footer role="contentinfo">
-    <div class="footer-inner">
-      <div class="footer-brand">
-        <div class="logo-name" style="color:#fff; font-size:1.3rem; margin-bottom:12px;">🌐 Lingua World</div>
-        <p>A premier language learning center dedicated to helping you communicate confidently in any language, anywhere in the world.</p>
-      </div>
-
-      <div class="footer-col">
-        <h4>Pages</h4>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="gallery.html">Gallery &amp; Data</a></li>
-          <li><a href="booking.html">Book a Class</a></li>
-          <li><a href="help.html">Help</a></li>
-          <li><a href="about.html">About</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col">
-        <h4>Languages</h4>
-        <ul>
-          <li><a href="gallery.html">English</a></li>
-          <li><a href="gallery.html">Arabic</a></li>
-          <li><a href="gallery.html">French</a></li>
-          <li><a href="gallery.html">Spanish</a></li>
-          <li><a href="gallery.html">Chinese</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col">
-        <h4>Contact</h4>
-        <ul>
-          <li><a href="#">📍 Mogadishu, Somalia</a></li>
-          <li><a href="#">📞 +252 61 000 0000</a></li>
-          <li><a href="#">✉ info@linguaworld.so</a></li>
-        </ul>
-      </div>
     </div>
+    <div class="wave"><svg viewBox="0 0 1440 60"><path d="M0,30 C360,60 720,0 1080,30 C1260,45 1380,30 1440,30 L1440,60 L0,60Z" fill="#fff"/></svg></div>
+</section>
 
-    <div class="footer-bottom">
-      <p>&copy; 2025 Lingua World. All rights reserved.</p>
-      <p>Project by <strong style="color:var(--accent)">Sa'ad Said Araye</strong> | ID: C1250095 | Jamhuriya University</p>
+<!-- ===== COURSES ===== -->
+<section class="courses">
+    <div class="container">
+        <h2 class="title">Popular <span>Courses</span></h2>
+        <div class="course-grid">
+            <div class="card"><img src="https://images.unsplash.com/photo-1546410531-bb4caa6b424d?w=400&h=220&fit=crop" alt="English"><div class="info"><h3>English</h3><p>Master fluency for business &amp; travel.</p><a href="booking.html" class="btn-outline">Enroll</a></div></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1588702547923-7093a6f1c2f8?w=400&h=220&fit=crop" alt="Arabic"><div class="info"><h3>Arabic</h3><p>Learn the language of culture &amp; heritage.</p><a href="booking.html" class="btn-outline">Enroll</a></div></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1523050854058-8df90110c7f1?w=400&h=220&fit=crop" alt="French"><div class="info"><h3>French</h3><p>Speak the language of love &amp; diplomacy.</p><a href="booking.html" class="btn-outline">Enroll</a></div></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?w=400&h=220&fit=crop" alt="Turkish"><div class="info"><h3>Turkish</h3><p>Bridge between East and West.</p><a href="booking.html" class="btn-outline">Enroll</a></div></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=400&h=220&fit=crop" alt="Chinese"><div class="info"><h3>Chinese</h3><p>Mandarin for global opportunities.</p><a href="booking.html" class="btn-outline">Enroll</a></div></div>
+            <div class="card"><img src="https://images.unsplash.com/photo-1558002038-1055907df827?w=400&h=220&fit=crop" alt="Spanish"><div class="info"><h3>Spanish</h3><p>Connect with 500 million speakers.</p><a href="booking.html" class="btn-outline">Enroll</a></div></div>
+        </div>
     </div>
-  </footer>
+</section>
+
+<!-- ===== WHY CHOOSE ===== -->
+<section class="why">
+    <div class="container">
+        <h2 class="title">Why <span>Choose Us</span></h2>
+        <div class="features">
+            <div><i class="fas fa-chalkboard-teacher"></i><h4>Pro Teachers</h4><p>Native certified experts</p></div>
+            <div><i class="fas fa-clock"></i><h4>Flexible</h4><p>Morning &amp; evening classes</p></div>
+            <div><i class="fas fa-dollar-sign"></i><h4>Affordable</h4><p>Quality at fair prices</p></div>
+            <div><i class="fas fa-globe"></i><h4>Certified</h4><p>Internationally recognized</p></div>
+            <div><i class="fas fa-users"></i><h4>Small Class</h4><p>Personalized attention</p></div>
+            <div><i class="fas fa-building"></i><h4>Modern</h4><p>Tech-enabled classrooms</p></div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== TEACHERS ===== -->
+<section class="teachers">
+    <div class="container">
+        <h2 class="title">Meet Our <span>Teachers</span></h2>
+        <div class="teacher-grid">
+            <div class="tcard"><img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&h=150&fit=crop&crop=face" alt="Sarah"><h4>Sarah Johnson</h4><p>English</p><span>8 years</span><div class="stars">★★★★★</div></div>
+            <div class="tcard"><img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face" alt="Ahmed"><h4>Ahmed Al-Rashid</h4><p>Arabic</p><span>6 years</span><div class="stars">★★★★☆</div></div>
+            <div class="tcard"><img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=150&h=150&fit=crop&crop=face" alt="Marie"><h4>Marie Dubois</h4><p>French</p><span>5 years</span><div class="stars">★★★★★</div></div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== STATS ===== -->
+<section class="stats">
+    <div class="container stats-grid">
+        <div><span>1500+</span><p>Students</p></div>
+        <div><span>25+</span><p>Teachers</p></div>
+        <div><span>12</span><p>Languages</p></div>
+        <div><span>98%</span><p>Success Rate</p></div>
+    </div>
+</section>
+
+<!-- ===== TESTIMONIALS ===== -->
+<section class="testimonials">
+    <div class="container">
+        <h2 class="title">What Students <span>Say</span></h2>
+        <div class="test-grid">
+            <div class="test-card"><img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=80&h=80&fit=crop&crop=face" alt="Emma"><h4>Emma W.</h4><p>"Amazing teachers! Fluent in 6 months."</p><div class="stars">★★★★★</div></div>
+            <div class="test-card"><img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=80&h=80&fit=crop&crop=face" alt="James"><h4>James K.</h4><p>"Flexible schedule helped me balance work."</p><div class="stars">★★★★★</div></div>
+            <div class="test-card"><img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face" alt="Fatima"><h4>Fatima Z.</h4><p>"Certificate opened doors for my career."</p><div class="stars">★★★★☆</div></div>
+        </div>
+    </div>
+</section>
+
+<!-- ===== NEWSLETTER ===== -->
+<section class="newsletter">
+    <div class="container">
+        <h3>Subscribe to Our Newsletter</h3>
+        <p>Get updates on new courses and special offers.</p>
+        <form><input type="email" placeholder="Your email" required><button class="btn-primary">Subscribe</button></form>
+    </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+    <div class="container footer-grid">
+        <div>
+            <h4>Quick Links</h4>
+            <ul><li><a href="index.html">Home</a></li><li><a href="gallery.html">Gallery</a></li><li><a href="booking.html">Booking</a></li><li><a href="about.html">About</a></li><li><a href="help.html">Help</a></li></ul>
+        </div>
+        <div>
+            <h4>Contact</h4>
+            <p><i class="fas fa-phone"></i> +252 61 234 5678</p>
+            <p><i class="fas fa-envelope"></i> info@linguacenter.edu</p>
+            <p><i class="fas fa-map-marker-alt"></i> Mogadishu, Somalia</p>
+            <p><i class="fas fa-clock"></i> Mon-Fri 8am-6pm</p>
+        </div>
+        <div>
+            <h4>Follow Us</h4>
+            <div class="social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+            </div>
+        </div>
+    </div>
+    <div class="bottom"><p>&copy; 2026 Language Learning Center. All rights reserved.</p></div>
+</footer>
 
 </body>
 </html>
